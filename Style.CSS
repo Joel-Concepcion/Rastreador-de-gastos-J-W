@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(r1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 100;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: beige;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#expense-summary {
+    margin-bottom: 20px;
+}
+
+#category-filter {
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: aliceblue;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    color: aliceblue;
+}
+
+label {
+    color: aliceblue;
+}

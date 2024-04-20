@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreador de Gastos</title>
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Rastreador de Gastos</h1>
+        <form id="expense-form">
+            <input type="text" id="expense-description" placeholder="Descripción" required>
+            <input type="number" id="expense-amount" placeholder="Cantidad" required>
+            <select id="expense-category">
+                <option value="alimentos">Alimentos</option>
+                <option value="transporte">Transporte</option>
+                <option value="entretenimiento">Entretenimiento</option>
+                <option value="otros">Otros</option>
+            </select>
+            <button type="submit">Registrar Gasto</button>
+        </form>
+        <div id="expense-summary">
+            <h2>Resumen de Gastos</h2>
+            <p>Total gastado: C$ <span id="total-expense">0</span></p>
+            <label for="category-filter">Filtrar por categoría:</label>
+            <select id="category-filter">
+                <option value="todos">Todos</option>
+                <option value="alimentos">Alimentos</option>
+                <option value="transporte">Transporte</option>
+                <option value="entretenimiento">Entretenimiento</option>
+                <option value="otros">Otros</option>
+            </select>
+        </div>
+        <ul id="expense-list"></ul>
+    </div>
+
+    <script src="Scrip.JS"></script>
+
+</body>
+
+</html>
